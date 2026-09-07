@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Georgia', serif;
+}
+
+.hero {
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), 
+                url('126182-shataa-bmdyn-dhb.jpg') no-repeat center/cover;
+    height: 100vh;
+    color: white;
+    position: relative;
+}
+
+.hero-content img {
+    display: none;
+}
+
+/* . Navbar */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 80px;
+    position: absolute;
+    width: 100%;
+    top: 0;
+}
+
+.logo {
+    font-size: 28px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 30px;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #f4b400; 
+}
+
+.hero-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 90%;
+}
+
+.hero-content .welcome {
+    font-size: 18px;
+    letter-spacing: 3px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.hero-content h1 {
+    font-size: 70px;
+    margin-bottom: 20px;
+    font-weight: normal;
+}
+
+.hero-content p {
+    font-size: 18px;
+    margin-bottom: 40px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* 4. buttons */
+.btn {
+    padding: 15px 35px;
+    text-decoration: none;
+    border-radius: 3px;
+    font-size: 16px;
+    margin: 0 10px;
+    transition: 0.3s;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.btn-filled {
+    background: #c9a961; 
+    color: white;
+    border: 2px solid #c9a961;
+}
+
+.btn-filled:hover {
+    background: transparent;
+    color: white;
+}
+
+.btn-outline {
+    background: transparent;
+    color: white;
+    border: 2px solid white;
+}
+
+.btn-outline:hover {
+    background: white;
+    color: black;
+}
+
